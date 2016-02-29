@@ -1,0 +1,66 @@
+body {
+    padding-top: 70px;
+}
+
+div.dataTables_processing {
+    background: none !important;
+}
+
+#iframe-modal iframe {
+    min-height: 600px;
+}
+
+.actions-column {
+    width: 100px;
+}
+
+.modal-backdrop.in {
+    opacity: 0.9;
+}
+
+.image-roll {
+    background: rgba(0, 0, 0, 0.15);
+    padding: 5px;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.image-roll ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+.image-roll ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    float: none;
+    position: relative;
+}
+
+.image-roll ul li img {
+    margin: 5px;
+}
+
+.image-roll ul li .delete-icon {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    background: rgba(0, 0, 0, 0.64);
+    padding: 1px 5px;
+}
+
+.image-roll ul li .delete-icon.active {
+    color: #e9322d;
+}
+
+.tab-content {
+    padding: 10px 0;
+}
+
+.change-category{
+    cursor: pointer;
+}
+

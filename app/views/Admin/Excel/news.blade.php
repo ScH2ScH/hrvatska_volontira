@@ -1,0 +1,26 @@
+<table>
+    <tbody>
+    <tr>
+        <td>Sifra</td>
+        <td>Naslov</td>
+        <td>Tekst</td>
+        <td>Aktiviran</td>
+        <td>Url-nastavak</td>
+        <td>Sazetak</td>
+        <td>Kreirano</td>
+        <td>Azurirano</td>
+    </tr>
+    @foreach($news as $new)
+        <tr>
+            <td>{{$new->id}}</td>
+            <td>{{$new->title}}</td>
+            <td>{{$new->body}}</td>
+            <td>{{$new->active}}</td>
+            <td>{{$new->slug}}</td>
+            <td>{{$new->menu_caption}}</td>
+            <td>{{$new->created_at}}</td>
+            <td>{{$new->updated_at}}</td>
+        </tr>
+    @endforeach
+    </tbody>
+</table>
